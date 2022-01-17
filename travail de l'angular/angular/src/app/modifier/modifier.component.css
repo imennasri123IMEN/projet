@@ -1,0 +1,10 @@
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+form label {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+}

@@ -1,0 +1,44 @@
+
+<style>
+    body {
+      background-image: url('assets/1.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+    <body>
+&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"  class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+    <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+    <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+  </svg>
+
+<form #f="ngForm" (ngSubmit)="modifier(f)">
+    <div class="form-floating mb-3">
+        <input type="number" class="form-control" name="cin" [ngModel] ="p.cin" readonly  >
+        <label for="floatingInput">cin</label>
+      </div>
+<div class="form-floating mb-3">
+    <input type="email" class="form-control" name="nom" [ngModel] ="p.nom">
+    <label for="floatingInput">nom</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="text" class="form-control" name="mail" [ngModel] ="p.mail"  >
+    <label for="floatingInput">email</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="text" class="form-control" name="prenom" [ngModel] ="p.prenom" >
+    <label for="floatingInput">prenom</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="password" class="form-control" name="password" [ngModel] ="p.password"  >
+    <label for="floatingInput">mot de passe</label>
+  </div>
+  
+
+
+
+  &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<button type="submit" class="btn btn-light">modifier</button>
+</form></body>
+
+
